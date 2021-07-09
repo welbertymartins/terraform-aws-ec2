@@ -5,5 +5,5 @@ This is a simple example using Terraform, AWS, Docker and Postgresql.
 terraform plan<br/>
 terraform apply<br/>
 
-## delete
+## destroy
 terraform destroy
