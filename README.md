@@ -1,4 +1,4 @@
-# hello-world-terraform-docker-composer
+# hello-world-terraform-aws-docker-composer-postgresql
 This is a simple example using Terraform, AWS, Docker and Postgresql.
 
 ## create
