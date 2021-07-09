@@ -1,0 +1,10 @@
+db:
+    image: postgres:13.3
+    volumes: 
+        - /var/lib/postgres
+    environment: 
+        - PGADMIN_DEFAULT_PASSWORD=12345678910
+        - PGDATABASE=postgres
+        - POSTGRES_PASSWORD=12345678910
+    ports: 
+        - "5432:5432"
