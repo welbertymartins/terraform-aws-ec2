@@ -2,8 +2,8 @@
 This is a simple example using Terraform, AWS, Docker and Postgresql.
 
 ## create
-terraform plan
-terraform apply
+<code>terraform plan</code>
+<code>terraform apply</code>
 
 ## delete
-terraform destroy
+<code>terraform destroy</code>
