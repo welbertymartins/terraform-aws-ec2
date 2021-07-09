@@ -3,7 +3,7 @@ provider "aws" {
   region = "us-east-1"
 }
 
-# sets the aws instance's security group
+# sets the aws ec2 instance's security group
 resource "aws_security_group" "web-sg" {
   name = "web-sg"
 
@@ -78,7 +78,7 @@ resource "aws_instance" "web" {
     ]
   }
 
-  # connect the instance
+  # connect to the instance
   key_name = "private_key_default"
   connection {
     type = "ssh"
