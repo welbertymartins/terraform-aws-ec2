@@ -1,4 +1,4 @@
-# terraform-aws-ec2-docker-composer-postgresql
+# terraform-aws-ec2
 This is a simple example using Terraform, AWS EC2, Docker and Postgresql.
 
 ## create or update
